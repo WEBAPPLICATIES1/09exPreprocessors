@@ -1,0 +1,146 @@
+/*Algemene opmaak en layout voor mobile (<481px) */
+
+
+/* 
+achtergrond - kleur -lettertype - lijn hoogte - breedte
+box-sizing activeren en een kleiner lettertype
+*/
+header,
+section,
+aside,
+article,
+footer,
+.description {
+    box-sizing: border-box;
+    padding-left: 0.5em;
+}
+
+body {
+    background-color: #ffffff;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.2em;
+    width: 100%;
+}
+
+
+/* achtergrond en hoogte instellen */
+
+
+
+/* 
+tekst ipv afbeelding voor de laagste resolutie
+font vergroten - breedte en float want icoon voor uitklapmenu moet ernaast komen
+*/
+h1 {
+    color: #de6581;
+    padding: 0.5em;
+    font-size: 1.5em;
+    width: 75%;
+    float: left;
+}
+
+
+/*Uitklapmenu - icon */
+
+
+/*
+kleiner lettertype voor p en a in section
+*/
+section p,
+section a {
+    font-size: 0.8em;
+}
+
+
+/*
+opmaak afbeeldingen dimensies komen overeen met dimensies van *-small.jpg
+en extra ruimte onderaan voor de figcaption - centreren
+*/
+
+figure {
+    max-width: 218px;
+    max-height: 170px;
+    padding: 1em 1em 0;
+    border: 1px solid #eeeeee;
+}
+
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+
+.description {
+    padding-top: 0.2em;
+    padding-bottom: 0.5em;
+}
+
+
+/*
+opmaak anchors
+*/
+
+
+
+
+/*
+opmaak headings
+*/
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.3em;
+    padding: 0.5em 0 0.1em;
+}
+
+h3 {
+    font-size: 1.1em;
+    padding: 0.4em 0;
+    color: #de6581;
+}
+
+
+/* tussenlijntje met section */
+
+aside {
+    border-top: 1px solid #eee;
+}
+
+
+/*
+opmaak nav en footer
+*/
+
+nav,
+footer {
+    color: #ffffff;
+    background-color: #aeaca8;
+}
+
+
+/*
+specifieke opmaak voor footer
+*/
+
+footer {
+    text-align: center;
+    font-size: 75%;
+    height: 5%;
+}
+
+/* settings voor screen tablet */
+@media screen and (min-width: 480px) {
+   
+}
+
+
+/* settings voor desktop (>992px) */
+
+@media screen and (min-width: 992px) {
+    
+}
